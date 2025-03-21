@@ -1,0 +1,66 @@
+#BackgroundInicio {
+    background-image: url("IMG/teste2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    min-height: 50%;
+
+    background-position: center ;
+}
+#BackgroundResto{
+    background-color:black;
+}
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:30vw;
+    margin-left: 120px;
+}
+.col-6{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+body
+{background-color: #030504;}
+table thead th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+#introdução{
+
+  color: black;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+#alerta{
+    background-color: black;
+    color: red;
+}
+a {
+    text-decoration: none !important;
+  }
+
+
+  #divisão{
+    padding-top: 2vh;
+  }
+
+#Passo-a-passo{
+    border-style: solid;
+    background-image: url("IMG/Sonic1BG2.png");
+    border-color: #C81F34;
+    color: black;
+}
+#Passo-a-passo h6{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#Stays{
+    position: sticky;
+    top:40%;
+}

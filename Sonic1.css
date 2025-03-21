@@ -1,0 +1,48 @@
+
+#BackgroundInicio {
+    background-image: url("IMG/Sonic1BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    min-height: 50%;
+
+    background-position: center ;
+}
+#BackgroundResto{
+    background-color: #2F60AC;
+}
+#logo {
+    margin-top: 50px;
+    width:25vw;
+    margin-left: 120px;
+}
+.col-6{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+body
+{background-color: #2F60AC;}
+table thead th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+#introdução{
+
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+a {
+    text-decoration: none !important;
+  }
+
+
+  #divisão{
+    padding-top: 2vh;
+  }
+
