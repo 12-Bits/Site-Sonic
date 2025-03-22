@@ -1,5 +1,5 @@
 #BackgroundInicio {
-    background-image: url("IMG/teste2.jpg");
+    background-image: url("IMG/Sonic1BG2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 130vh;
@@ -38,8 +38,10 @@ table thead th {
 }
 
 #alerta{
-    background-color: black;
-    color: red;
+
+    padding: 2vh;
+    background-color: red;
+    color: black;
 }
 a {
     text-decoration: none !important;
@@ -52,15 +54,26 @@ a {
 
 #Passo-a-passo{
     border-style: solid;
-    background-image: url("IMG/Sonic1BG2.png");
+    background-image: url("IMG/Sonic1BG3.png");
     border-color: #C81F34;
     color: black;
+}
+#Passo-a-passo h2{
+    padding-bottom: 1.9vh;
 }
 #Passo-a-passo h6{
     font-size: 1.1em;
     font-weight: bold;
 }
-#Stays{
+#Menu-sticky{
     position: sticky;
     top:40%;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
 }
+#Menu-sticky a{
+    font-size: 1.5em;
+}
+
+
