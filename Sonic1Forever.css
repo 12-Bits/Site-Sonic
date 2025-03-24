@@ -1,11 +1,13 @@
+@media only screen and (min-width: 1200px) {
 #BackgroundInicio {
     background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-
-
     background-position: center ;
+}
+.col-sm-8{
+    display: none;
 }
 #BackgroundResto{
     background-color:black;
@@ -16,7 +18,7 @@
     width:30vw;
     margin-left: 120px;
 }
-.col-6{
+.col-lg-6{
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
@@ -108,4 +110,52 @@ padding-top: 10vh;
 
 #logo-img{ 
     width: 10vw;
+}
+}
+
+@media only screen and (max-width: 600px){
+    body
+{  background-image:url("IMG/Sonic1/Sonic1Forever/tile2.png");}
+    #logo {
+        margin-top: 50px;
+        width:60vw;
+        margin-left: 10%;
+ 
+    }
+    #logo-img{ 
+        width: 30vw;
+        margin-left: 25vw;
+    }
+    #BackgroundInicio {
+        background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3Mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        min-height: 50%;
+        background-position: center ;
+    }
+    .col-lg-6{
+        display: none;
+    }
+    #Menu-sticky{
+        display: none;
+    }
+    #Passo-a-passo{
+        border-style: solid;
+        background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
+        border-color: #C81F34;
+        color: black;   
+    }
+    #introdução{
+        font-size: 1em;
+        padding-top: 25vh;
+        color: black;
+        text-shadow:
+         -1px -1px 0 #fff,  
+          1px -1px 0 #fff,
+          -1px 1px 0 #fff,
+           1px 1px 0 #fff;
+    }
+
+
 }

@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1200px) {
 
+    
+  #logo-img{ 
+    width: 10vw;
+  }
 #BackgroundInicio {
     background-image: url("IMG/Sonic1/Sonic1BG1.png");
     background-repeat: no-repeat;
@@ -51,10 +55,8 @@ a {
     padding-top: 2vh;
   }
 
-  #logo-img{ 
-    width: 10vw;
 }
-}
+
 
 @media only screen and (max-width: 600px){
     #BackgroundInicio {
@@ -64,6 +66,9 @@ a {
         height: 95vh;
         min-height: 50%;
         background-position: center ;
+    }
+    .col-sm-6{
+        padding-top: 10vh;
     }
 
     .col-lg-6{
@@ -91,7 +96,7 @@ a {
         text-align: center !important;
     }
     #tabela{
-        margin-top: 50vh;
+        margin-top: 10vh;
     }
     #tabela2{
         margin-top: 5vh;
@@ -116,9 +121,13 @@ a {
         padding-top: 2vh;
       }
     
-      #logo-img{
 
-        width: 10vw;
-
-    }
+         #logo-img{
+            width: 30vw;
+            margin-left: 25vw;
+        }
+    
+    #Linktopage{
+        color: #000;
+        text-decoration: none !important;}
 }

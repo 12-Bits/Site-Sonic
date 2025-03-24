@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1200px) {
 #BackgroundInicio{
 background-repeat: no-repeat;
 background-position: center;
@@ -19,4 +20,19 @@ height: 90vh;
     text-align: center;
     font-size: 1.5vw;
     color: black;
+}
+}
+@media only screen and (max-width: 600px){
+    #logo-img{ 
+        width: 30vw;
+        margin-left: 25vw;
+    }
+    #BackgroundInicio{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(IMG/Index-bgMobile.png);
+        height: 90vh;
+        }
+
 }
