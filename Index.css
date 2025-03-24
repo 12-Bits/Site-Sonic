@@ -2,6 +2,7 @@
 #BackgroundInicio{
 background-repeat: no-repeat;
 background-position: center;
+background-size: cover;
 background-image: url(IMG/Index-bg.png);
 height: 90vh;
 }
