@@ -1,9 +1,9 @@
 #BackgroundInicio {
-    background-image: url("IMG/Sonic1BG2.jpg");
+    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 130vh;
-    min-height: 50%;
+    height: 90vh;
+
 
     background-position: center ;
 }
@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 body
-{background-color: #030504;}
+{  background-image:url("IMG/Sonic1/Sonic1Forever/tile2.png");}
 table thead th {
     text-align: center !important;
     vertical-align: middle !important;
@@ -38,12 +38,12 @@ table thead th {
 }
 
 #alerta{
-
+    font-size: 0.8em;
     padding: 2vh;
     background-color: red;
     color: black;
 }
-a {
+body a {
     text-decoration: none !important;
   }
 
@@ -54,9 +54,10 @@ a {
 
 #Passo-a-passo{
     border-style: solid;
-    background-image: url("IMG/Sonic1BG3.png");
+    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
     border-color: #C81F34;
     color: black;
+    
 }
 #Passo-a-passo h2{
     padding-bottom: 1.9vh;
@@ -73,7 +74,38 @@ a {
     text-align: center;
 }
 #Menu-sticky a{
-    font-size: 1.5em;
+    position: sticky;
+    top:40%;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+}
+
+#nota{
+    font-size: 0.9em;
 }
 
 
+#alerta2{
+    padding: 2vh;
+    margin-top: 5vh;
+    background-color: red;
+    color: black;
+}
+
+#tutorial-img{
+
+    width: 30vw;
+}
+
+
+#Passo-a-passo1{
+ text-align: center;
+padding-top: 10vh;
+}
+
+
+
+#logo-img{ 
+    width: 10vw;
+}

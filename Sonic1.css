@@ -1,6 +1,6 @@
 
 #BackgroundInicio {
-    background-image: url("IMG/Sonic1BG1.png");
+    background-image: url("IMG/Sonic1/Sonic1BG1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -46,3 +46,6 @@ a {
     padding-top: 2vh;
   }
 
+  #logo-img{ 
+    width: 10vw;
+}
