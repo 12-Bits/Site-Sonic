@@ -1,7 +1,22 @@
-body{
-    background-color: rgb(67, 67, 255);
+#BackgroundInicio{
+background-repeat: no-repeat;
+background-position: center;
+background-image: url(IMG/Index-bg.png);
+height: 90vh;
 }
 
 #logo-img{ 
     width: 10vw;
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+}
+
+#explicação{
+    text-align: center;
+    font-size: 1.5vw;
+    color: black;
 }
