@@ -113,7 +113,8 @@ a {
     }
     
     a {
-        text-decoration: none !important;
+        text-decoration: none ;
+        color: blue;
       }
     
     
@@ -128,6 +129,6 @@ a {
         }
     
     #Linktopage{
-        color: #000;
+        color: blue;
         text-decoration: none !important;}
 }
