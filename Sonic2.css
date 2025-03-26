@@ -1,0 +1,134 @@
+@media only screen and (min-width: 1200px) {
+
+    
+  #logo-img{ 
+    width: 10vw;
+  }
+#BackgroundInicio {
+    background-image: url("IMG/Sonic2/BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    min-height: 50%;
+
+    background-position: center ;
+}
+#BackgroundResto{
+    background-color: #2F60AC;
+}
+#logo {
+    margin-top: 50px;
+    width:25vw;
+    margin-left: 120px;
+}
+.col-lg-6{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+.col-sm-6{
+    display: none;
+}
+
+body
+{background-color: #2F60AC;}
+table thead th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+#introdução{
+
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+a {
+    text-decoration: none !important;
+  }
+
+
+  #divisão{
+    padding-top: 2vh;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px){
+    #BackgroundInicio {
+        background-image: url("IMG/Sonic1/Sonic1BGMobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 95vh;
+        min-height: 50%;
+        background-position: center ;
+    }
+    .col-sm-6{
+        padding-top: 10vh;
+    }
+
+    .col-lg-6{
+        display: none;
+    }
+    #BackgroundResto{
+        background-color: #2F60AC;
+    }
+    #logo {
+        margin-top: 50px;
+        width:auto;
+        margin-left: 120px;
+        visibility: hidden;
+    }
+    .col-6{
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: none;
+    }
+    
+    body
+    {background-color: #2F60AC;}
+    table thead th {
+        padding-top: 50vh;
+        text-align: center !important;
+    }
+    #tabela{
+        margin-top: 10vh;
+    }
+    #tabela2{
+        margin-top: 5vh;
+    }
+    #introdução{
+    padding-top: 40vh;
+      color: white;
+      text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+         text-align: center;
+    }
+    
+    a {
+        text-decoration: none ;
+        color: blue;
+      }
+    
+    
+      #divisão{
+        padding-top: 2vh;
+      }
+    
+
+         #logo-img{
+            width: 30vw;
+            margin-left: 25vw;
+        }
+    
+    #Linktopage{
+        color: blue;
+        text-decoration: none !important;}
+}
