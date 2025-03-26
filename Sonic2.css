@@ -5,10 +5,10 @@
     width: 10vw;
   }
 #BackgroundInicio {
-    background-image: url("IMG/Sonic2/BG1.png");
+    background-image: url("IMG/Sonic2/BG1teste2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+height: 90vh;
     min-height: 50%;
 
     background-position: center ;
@@ -38,12 +38,7 @@ table thead th {
 }
 #introdução{
 
-  color: white;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  color: black;
 }
 
 a {
@@ -60,7 +55,7 @@ a {
 
 @media only screen and (max-width: 600px){
     #BackgroundInicio {
-        background-image: url("IMG/Sonic1/Sonic1BGMobile.jpg");
+        background-image: url("IMG/Sonic2/BGMobileteste.png");
         background-repeat: no-repeat;
         background-size: cover;
         height: 95vh;
@@ -96,13 +91,13 @@ a {
         text-align: center !important;
     }
     #tabela{
-        margin-top: 10vh;
+        margin-top: 35vh;
     }
     #tabela2{
-        margin-top: 5vh;
+        margin-top: 0vh;
     }
     #introdução{
-    padding-top: 40vh;
+    padding-top: 30vh;
       color: white;
       text-shadow:
        -1px -1px 0 #000,  
