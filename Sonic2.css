@@ -31,7 +31,11 @@ height: 90vh;
 }
 
 body
-{background-color: #2F60AC;}
+{
+    background-color: #2F60AC;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;}
 table thead th {
     text-align: center !important;
     vertical-align: middle !important;
@@ -60,7 +64,7 @@ a {
     background-size: cover;
     height: 95vh;
     min-height: 50%;
-    
+
     background-position: center;
 }
     .col-sm-6{
@@ -86,7 +90,12 @@ a {
     }
     
     body
-    {background-color: #2F60AC;}
+    {
+        background-color: #2F60AC;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     table thead th {
         padding-top: 50vh;
         text-align: center !important;

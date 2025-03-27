@@ -6,6 +6,11 @@ background-size: cover;
 background-image: url(IMG/Index-bg.png);
 height: 90vh;
 }
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 #logo-img{ 
     width: 10vw;
@@ -27,6 +32,11 @@ height: 90vh;
     #logo-img{ 
         width: 30vw;
         margin-left: 25vw;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
     #BackgroundInicio{
         background-size: contain;
