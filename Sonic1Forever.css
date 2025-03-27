@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1200px) {
 #BackgroundInicio {
-    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.jpg");
+    background-image: url("IMG/Sonic1/Ports/Sonic1BG3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 body
-{  background-image:url("IMG/Sonic1/Sonic1Forever/tile2.png");}
+{  background-image:url("IMG/Sonic1/Ports/tile2.png");}
 table thead th {
     text-align: center !important;
     vertical-align: middle !important;
@@ -59,7 +59,7 @@ body a {
 
 #Passo-a-passo{
     border-style: solid;
-    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
+    background-image: url("IMG/Sonic1/Ports/Sonic1BG3.png");
     border-color: #C81F34;
     color: black;
     
@@ -117,7 +117,7 @@ padding-top: 10vh;
 }
 
 @media only screen and (max-width: 600px){
-    body{  background-image:url("IMG/Sonic1/Sonic1Forever/tile2.png");}
+    body{  background-image:url("IMG/Sonic1/Ports/tile2.png");}
     #logo {
         margin-top: 50px;
         width:90vw;
@@ -128,7 +128,7 @@ padding-top: 10vh;
         margin-left: 25vw;
     }
     #BackgroundInicio {
-        background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3Mobile.jpg");
+        background-image: url("IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 80vh;
@@ -147,7 +147,7 @@ padding-top: 10vh;
     }
     #Passo-a-passo{
         border-style: solid;
-        background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
+        background-image: url("IMG/Sonic1/Ports/Sonic1BG3.png");
         border-color: #C81F34;
         color: black;   
     }
@@ -164,7 +164,7 @@ padding-top: 10vh;
     #computadorMobile{
     border-style: solid;
     border-color: #C81F34;
-    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
+    background-image: url("IMG/Sonic1/Ports/Sonic1BG3.png");
     align-items: center;
     margin-bottom: 5vh;
 }
@@ -172,7 +172,7 @@ padding-top: 10vh;
 #celularMobile{
     border-style: solid;
     border-color: #C81F34;
-    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.png");
+    background-image: url("IMG/Sonic1/Ports/Sonic1BG3.png");
     align-items: center;
 }
 

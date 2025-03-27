@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1200px) {
 #BackgroundInicio {
-    background-image: url("IMG/Sonic1/Sonic1Forever/Sonic1BG3.jpg");
+    background-image: url("IMG/Sonic2/Ports/BG.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -34,12 +34,12 @@ table thead th {
 }
 #introdução{
 
-  color: black;
+  color:white;
   text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 #alerta{
