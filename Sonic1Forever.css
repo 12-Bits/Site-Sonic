@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    min-height: 50%;
     background-position: center ;
 }
 .col-sm-10{
@@ -117,6 +118,15 @@ padding-top: 10vh;
 }
 
 @media only screen and (max-width: 600px){
+
+    #BackgroundInicio {
+        background-image: url("IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        min-height: 50%;
+        background-position: center ;
+    }
     body{  background-image:url("IMG/Sonic1/Ports/tile2.png");}
     #logo {
         margin-top: 50px;
@@ -127,14 +137,7 @@ padding-top: 10vh;
         width: 30vw;
         margin-left: 25vw;
     }
-    #BackgroundInicio {
-        background-image: url("IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        min-height: 50%;
-        background-position: center ;
-    }
+
     .container mt-4{
         display: none;
     }

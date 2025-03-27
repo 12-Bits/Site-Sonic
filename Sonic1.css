@@ -1,18 +1,19 @@
 @media only screen and (min-width: 1200px) {
-
-    
-  #logo-img{ 
-    width: 10vw;
-  }
 #BackgroundInicio {
     background-image: url("IMG/Sonic1/Sonic1BG1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
     min-height: 50%;
-
     background-position: center ;
 }
+.col-sm-6{
+    display: none;
+}
+  #logo-img{ 
+    width: 10vw;
+  }
+
 #BackgroundResto{
     background-color: #2F60AC;
 }
@@ -26,9 +27,7 @@
     font-size: larger;
     text-decoration: none;
 }
-.col-sm-6{
-    display: none;
-}
+
 
 body
 {background-color: #2F60AC;}
@@ -65,7 +64,7 @@ a {
         background-size: cover;
         height: 95vh;
         min-height: 50%;
-        background-position: center ;
+        background-position: center;
     }
     .col-sm-6{
         padding-top: 10vh;
@@ -96,7 +95,7 @@ a {
         text-align: center !important;
     }
     #tabela{
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
     #tabela2{
         margin-top: 5vh;

@@ -54,14 +54,15 @@ a {
 
 
 @media only screen and (max-width: 600px){
-    #BackgroundInicio {
-        background-image: url("IMG/Sonic2/BGMobileteste.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 95vh;
-        min-height: 50%;
-        background-position: center ;
-    }
+#BackgroundInicio {
+    background-image: url("IMG/Sonic2/BGMobileteste.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    min-height: 50%;
+    
+    background-position: center;
+}
     .col-sm-6{
         padding-top: 10vh;
     }
