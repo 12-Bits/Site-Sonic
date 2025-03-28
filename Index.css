@@ -12,6 +12,12 @@ body{
     overflow-x: hidden;
 }
 
+#mynavbar{
+    padding-left: 2vw;
+}
+#search{
+    padding-left: 5vw;
+}
 #logo-img{ 
     width: 10vw;
 }
@@ -48,5 +54,6 @@ body{
     #inicio{
         text-align: center;
     }
+
 
 }

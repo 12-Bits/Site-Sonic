@@ -15,6 +15,12 @@
 #BackgroundResto{
     background-color:black;
 }
+#mynavbar{
+    padding-left: 2vw;
+}
+#search{
+    padding-left: 5vw;
+}
 #logo {
     margin-top: 10px;
     margin-bottom: 10px;

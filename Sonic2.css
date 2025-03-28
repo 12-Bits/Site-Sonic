@@ -16,6 +16,12 @@ height: 90vh;
 #BackgroundResto{
     background-color: #2F60AC;
 }
+#mynavbar{
+    padding-left: 2vw;
+}
+#search{
+    padding-left: 5vw;
+}
 #logo {
     margin-top: 50px;
     width:25vw;
